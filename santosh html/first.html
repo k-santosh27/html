@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <title> Registration form </title>
+    <h1><span >REGISTRATION FOR LIBRARY</span></h1>
+    <style>
+        #xyz:hover{
+
+                font-size: 100%;
+        }
+        
+        footer{
+            text-align-last: center;
+        }
+        body{
+            background-color:black;
+        }
+        #asd{
+            text-align-last: center;
+            margin-left:420px;
+            display: inline;
+            padding:10px;
+            color: white;
+        }
+        span{
+            background-color: red;
+            color: aliceblue; 
+            text-align-last: center;
+        }
+    img {
+        align-self: start;
+        width: 100%;
+    }
+    h1{
+        text-align-last: center;
+    }
+    form{
+        text-align-last: center;
+    }
+    </style>
+    <body >
+
+<div id="asd" style="align-self: center;">
+        <form action="./login.html">
+        <div >
+            <label ><b>First Name :</b></label>
+            <input type="text" placeholder="enter your first name" required> 
+            
+            <br><br><label><b>Middle Name :</b></label>
+            <input type="text"placeholder="enter your middle name" required>
+            
+            <br><br><label><b>Last Name :</b></label>
+            <input type="text" placeholder="enter your last name" required>
+            
+            <br><br><label><b>Mail-Id :</b></label>
+            <input type="email"placeholder="abc@gmail.com" required>
+            
+            <br><br> <label><b>Mobile Number :</b></label>
+            <input type="text" value="+91"size="2" required>
+            <input id="z"type="tel"placeholder="enter your mobile number"  pattern="[0-9]{10}" required>
+        </div>
+        <br>
+        <div >
+            <label><b>Stream :</b></label>
+            <select required>
+                <option selected disabled>select your stream</option>
+                <option>Computer Science and Engineering</option>
+                <option>Electronics and Comunication Engineering</option>
+                <option>Mechanical Engineering</option>
+                <option>Civil Engineering</option>
+                <option>Information Technology</option>
+                <option>Electronics and Electrical Engineering</option>
+                <option>Master of Business Administration</option>
+            </select>
+        </div><br>
+        <div >
+            <label><b>Gender</b></label>
+            <br>
+            <input type="radio" name="Gender" required>
+            <label for="Gender" style="padding-right: 12px;"><b>Male</b></label>            
+            <input type="radio" name="Gender"  required>
+            <label for="gender" ><b>Female</b></label>
+            <input type="radio" name="Gender" required>
+            <label for="gender" style="padding-right: 10px;"><b>Other</b></label>
+            <br><br><label><b>User Name :</b></label>
+            <input type="text" placeholder="username" required>
+        </div><br>
+        <label><b>Password : </b></label>
+        <input type="password"placeholder="password"required>
+        <br><br>
+        
+        <label><b>Re-Enter Password : </b></label>
+        <input type="password"placeholder="password"required>
+        <br><br>
+        <input type="checkbox" required>
+        <label><b>I hearby declare all my details are correct</b></label><br><br><br>
+        
+        <button style="color:rgb(47, 241, 73)" id="xyz"><b>Register</b></button><br><br>
+    </form>
+</div>
+
+    <footer style="background-color:rgb(247, 6, 6) ;";><b><i><h style="color:seashell;">Register .....!!!!</h></i></b></footer>
+    </body>
+</html>

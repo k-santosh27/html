@@ -1,0 +1,20 @@
+h1{
+    color:red;
+    text-align: center;
+    text-transform: uppercase;
+}
+header{
+    background-color: #aaa49f;
+}
+aside{
+    display:none;
+}
+h2{
+    text-transform: uppercase;
+}
+main{
+    background-color: #aaa49f;
+}
+p{
+    text-align:cover;
+}

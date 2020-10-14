@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        input[type=number]{
+            width:50px;
+        }
+    form{
+        text-align-last: center;
+    }
+    h1{
+        text-align-last:center;
+    }
+    #abc{
+        font-style: oblique;
+        color: black;
+    }
+    </style>
+    <title>payment</title>
+    <body style="background-color:skyblue">
+        <form>
+        <h1 id="abc">Payment Gateway</h1><br><br><br><br>
+            <label style="padding-right: 35px;" ><b>Select The Payment Method</b></label>
+            <select style="padding-right: 2ch;">
+                <option>Credit Card</option>
+                <option>Debit Card</option>
+            </select><br><br>
+            <label ;><b>Card Number</b></label>
+            <input type="number" placeholder="xxxx" required>
+            <input type="number" placeholder="xxxx" required>
+            <input type="number" placeholder="xxxx" required>
+            <input type="number" placeholder="xxxx" required><br><br>
+            <label ><b>Exp Date:</b></label>
+            <input type="text" placeholder="xx/xx" size="4" required>
+            <label style="padding-left:70px";><b>CVV :</b></label>
+            <input type="number" placeholder="xxx"  required><br><br>
+            <input type="checkbox">
+            <label style="padding-right:15px;"><b>Save card details</b></label><br><br>
+            <button style="background-color:grey;font-style: oblique;" onclick="myfun()"><b>SUBMIT</b></button>
+        </form>
+        <script>
+            function myfun(){
+                alert("are you sure...!" )
+            }</script>
+        
+    </body>
+</html>
